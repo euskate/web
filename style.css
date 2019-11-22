@@ -1,0 +1,28 @@
+@charset "UTF-8";
+html{color:#000;background:#FFF;}
+
+/* W3Schools Font Logo */
+.logo {
+  font-family:fontawesome;
+  text-decoration:none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size:37px;
+  letter-spacing:3px;
+  color:royalblue;
+  display:block;
+  position:relative;
+  border-bottom:2px solid royalblue;
+  padding:12px;
+  }
+.nav_left{
+  border-right: 2px solid royalblue;
+  width:100px;
+  margin: 0;
+  padding: 10px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
